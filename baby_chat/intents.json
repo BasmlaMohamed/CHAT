@@ -1,0 +1,220 @@
+{
+  "content": [
+    {
+      "tag": "greetings",
+      "intents": [
+        {"pattern": "hello", "response": "Hello, super mom! 😊 Mom Pulse is here to help with your baby. What’s up?"},
+        {"pattern": "hi mom pulse", "response": "Hi there! Ready to make your day easier with Mom Pulse? Tell me what you need!"},
+        {"pattern": "good morning", "response": "Good morning! Mom Pulse is ready to give you tips for your little one!"},
+        {"pattern": "hey can you help", "response": "Hey, amazing mama! Mom Pulse has your back. What’s on your mind?"},
+        {"pattern": "hello I need help", "response": "Hello! Mom Pulse is here to support you. What’s going on with your baby?"},
+        {"pattern": "good evening I need advice", "response": "Good evening! Mom Pulse is ready with advice for you. What do you need?"}
+      ]
+    },
+    {
+      "tag": "bye",
+      "intents": [
+        {"pattern": "bye", "response": "Bye, rockstar mom! Mom Pulse will be here when you need us. 😊"},
+        {"pattern": "goodbye", "response": "Goodbye! Take care of yourself and the baby. See you soon!"},
+        {"pattern": "good night", "response": "Good night! Rest well, mama. Mom Pulse is just a call away."},
+        {"pattern": "see you later", "response": "See you later! Mom Pulse will always be here for you."},
+        {"pattern": "thanks bye", "response": "You’re welcome! Bye, beautiful. Mom Pulse is here anytime!"},
+        {"pattern": "exit", "response": "Exiting now. Come back anytime, super mom! 😊"}
+      ]
+    },
+    {
+      "tag": "baby_cry",
+      "intents": [
+        {"pattern": "the baby is crying", "response": "Oh, your little one’s crying? Try rocking them gently or singing a soft lullaby. 😊 They might be hungry."},
+        {"pattern": "my baby is crying", "response": "Crying could mean hunger or discomfort. Check their diaper or offer a feed."},
+        {"pattern": "baby won’t stop crying", "response": "If the baby won’t stop crying, try swaddling or white noise. Tell Mom Pulse more for specific advice!"},
+        {"pattern": "how to calm baby", "response": "To calm your baby, try a gentle tummy massage or a pacifier. Need more soothing tips?"},
+        {"pattern": "baby cries at night", "response": "Crying at night? Check for hunger or a wet diaper. A consistent bedtime routine can help."},
+        {"pattern": "baby crying in car", "response": "Crying in the car? Try a pacifier or soft music. Ensure they’re comfortable in the car seat."},
+        {"pattern": "why is baby crying", "response": "Babies cry for many reasons—hunger, discomfort, or tiredness. Check the basics first!"}
+      ]
+    },
+    {
+      "tag": "feeding",
+      "intents": [
+        {"pattern": "how to breastfeed", "response": "Breastfeed every 2-3 hours using a comfy hold like the cradle position. 😊 Need more tips?"},
+        {"pattern": "baby not feeding", "response": "If your baby’s not feeding well, they might be gassy. Burp them gently and try again."},
+        {"pattern": "breastfeeding tips", "response": "Stay hydrated and relaxed for breastfeeding. Try a football hold for comfort!"},
+        {"pattern": "baby won’t take bottle", "response": "Baby won’t take a bottle? Try warming the nipple or a different bottle type."},
+        {"pattern": "when to start solid food", "response": "Start solids around 6 months with mashed avocado or cereal. Consult your pediatrician!"},
+        {"pattern": "baby spits up after feeding", "response": "Spitting up? Burp your baby during feeds and hold them upright after."},
+        {"pattern": "how to know baby is full", "response": "A full baby may turn away or relax. Watch for cues like slowed sucking."}
+      ]
+    },
+    {
+      "tag": "sleep",
+      "intents": [
+        {"pattern": "baby won’t sleep", "response": "Baby not sleeping well? Try a consistent routine: bath, story, bed. Keep the room at 68-72°F. 😊"},
+        {"pattern": "how to make baby sleep", "response": "To help your baby sleep, use a dark, quiet room and avoid overstimulation."},
+        {"pattern": "baby wakes up at night", "response": "Waking up a lot? Check for hunger or discomfort. Mom Pulse can suggest a sleep schedule!"},
+        {"pattern": "safe sleep for baby", "response": "For safe sleep, place the baby on their back in a clear crib. Need SIDS prevention tips?"},
+        {"pattern": "baby sleeping on stomach", "response": "Stomach sleeping? Gently roll them onto their back—it’s safer. Want more safe sleep advice?"},
+        {"pattern": "baby sleep routine", "response": "A good sleep routine includes a bath, story, and dim lights. Stick to it nightly!"},
+        {"pattern": "baby wakes up crying", "response": "Waking up crying? Check for a wet diaper or hunger. A soothing lullaby can help."}
+      ]
+    },
+    {
+      "tag": "baby_health",
+      "intents": [
+        {"pattern": "baby has fever", "response": "If your baby has a fever, check their temperature (normal is 36.5-37.5°C). 🌡️ Consult a doctor if it’s above 38°C."},
+        {"pattern": "how to treat baby constipation", "response": "For constipation, try gentle tummy massages or bicycle leg movements. Consult a doctor if no improvement."},
+        {"pattern": "baby has diaper rash", "response": "Diaper rash? Apply zinc oxide cream and change diapers frequently. Want more advice?"},
+        {"pattern": "baby sneezing a lot", "response": "Sneezing a lot? Keep the baby hydrated and consult a doctor if it persists."},
+        {"pattern": "how to clean baby’s nose", "response": "Use a saline spray and a nasal aspirator to clean your baby’s nose gently."},
+        {"pattern": "baby has diarrhea", "response": "Diarrhea? Ensure hydration and contact a pediatrician if severe."},
+        {"pattern": "baby coughing", "response": "Coughing? Ensure hydration and consult a doctor if symptoms worsen."},
+        {"pattern": "signs of baby dehydration", "response": "Signs of dehydration include dry mouth and fewer wet diapers. Offer fluids and call a doctor."},
+        {"pattern": "how to treat baby acne", "response": "For baby acne, wash gently with mild soap. Avoid oils and consult a doctor if severe."},
+        {"pattern": "baby vomiting a lot", "response": "Vomiting a lot? Keep them hydrated and consult a pediatrician immediately."}
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "intents": [
+        {"pattern": "feeling sad", "response": "It’s okay to feel down. 😊 Try a friend’s chat or mindfulness. Mom Pulse has postpartum resources!"},
+        {"pattern": "I feel overwhelmed", "response": "Feeling overwhelmed? Take it one step at a time. Try deep breathing or a short walk."},
+        {"pattern": "how to handle stress", "response": "To handle stress, try journaling or a quick meditation. Mom Pulse has relaxation tips!"},
+        {"pattern": "postpartum depression", "response": "Postpartum depression is tough. Talk to a doctor or loved one. You’re not alone!"},
+        {"pattern": "feeling anxious about baby", "response": "Anxiety about your baby is normal. Focus on small wins and reach out for support."},
+        {"pattern": "I feel tired all the time", "response": "Exhausted? Rest when the baby sleeps and ask for help. Mom Pulse has energy tips!"}
+      ]
+    },
+    {
+      "tag": "baby_development",
+      "intents": [
+        {"pattern": "baby not crawling yet", "response": "Not crawling yet? Most babies crawl between 6-12 months. Encourage with tummy time!"},
+        {"pattern": "when will baby talk", "response": "Babies usually say first words around 12 months. Sing and talk to boost language!"},
+        {"pattern": "baby milestones", "response": "Milestones vary! Rolling over by 6 months, walking by 12-18 months. Want a guide?"},
+        {"pattern": "how to help baby walk", "response": "To help walking, hold their hands or use push toys. Be patient—they’ll get there!"},
+        {"pattern": "is my baby developing normally", "response": "Every baby grows at their own pace. Check milestones with your pediatrician."},
+        {"pattern": "baby not pointing yet", "response": "Not pointing? Try pointing at objects yourself to teach them. Most point by 12 months."}
+      ]
+    },
+    {
+      "tag": "daily_tips",
+      "intents": [
+        {"pattern": "daily tips for moms", "response": "Daily tip: Sing to your baby to bond! 😊 Want another tip for you or baby?"},
+        {"pattern": "how to make bath time fun", "response": "Make bath time fun with colorful toys or bubbles. Sing a bath song!"},
+        {"pattern": "quick diaper change tips", "response": "Keep a caddy with diapers and wipes for quick changes. Distract with a toy!"},
+        {"pattern": "how to keep baby entertained", "response": "Entertain your baby with rattles or peek-a-boo. Simple games work wonders!"},
+        {"pattern": "tips for new moms", "response": "New mom? Rest when you can, accept help, and trust your instincts!"},
+        {"pattern": "fun activities for baby", "response": "Try sensory play with soft fabrics or music for fun baby activities!"}
+      ]
+    },
+    {
+      "tag": "vaccinations",
+      "intents": [
+        {"pattern": "baby vaccination schedule", "response": "Vaccinations start at 2 months with DTaP. Check with your pediatrician for a schedule!"},
+        {"pattern": "when to vaccinate baby", "response": "Vaccinate at 2, 4, 6 months, and beyond. Follow your doctor’s schedule!"},
+        {"pattern": "baby cries after shots", "response": "Crying after shots? Cuddle and offer a feed to soothe them. It’s normal!"},
+        {"pattern": "are vaccines safe for baby", "response": "Vaccines are safe and vital. They protect against serious diseases. Ask your doctor!"},
+        {"pattern": "how to prepare for baby shots", "response": "Prepare for shots by bringing a favorite toy and staying calm. Comfort them after!"},
+        {"pattern": "vaccine side effects baby", "response": "Mild fever or fussiness after vaccines is normal. Call a doctor if severe."}
+      ]
+    },
+    {
+      "tag": "postpartum",
+      "intents": [
+        {"pattern": "postpartum care tips", "response": "Rest, eat well, and avoid heavy tasks in the first 40 days. 😊 Mom Pulse has tips!"},
+        {"pattern": "tired after birth", "response": "Exhausted after birth? Nap when the baby naps and ask for help!"},
+        {"pattern": "postpartum mood swings", "response": "Mood swings? They’re normal. Talk to a friend or rest. Mom Pulse has resources!"},
+        {"pattern": "how to recover after birth", "response": "Recover by eating nutritious food and avoiding strenuous activity. Take it slow!"},
+        {"pattern": "how to exercise after birth", "response": "Start with gentle walks 6 weeks post-birth. Check with your doctor first!"},
+        {"pattern": "postpartum body changes", "response": "Body changes are normal. Focus on health, not perfection. You’re doing great!"}
+      ]
+    },
+    {
+      "tag": "baby_allergies",
+      "intents": [
+        {"pattern": "baby has rash after eating", "response": "Rash after eating? It could be an allergy. Consult a doctor for tests."},
+        {"pattern": "is baby allergic to milk", "response": "Milk allergy? Watch for rashes or fussiness. Talk to a pediatrician."},
+        {"pattern": "how to prevent baby allergies", "response": "Introduce new foods slowly at 6 months to prevent allergies. Consult a doctor!"},
+        {"pattern": "baby allergic to pets", "response": "Pet allergies? Keep the baby’s room pet-free and wash hands after petting."},
+        {"pattern": "how to test baby food allergies", "response": "Test food allergies by introducing one food at a time. Watch for reactions!"},
+        {"pattern": "baby cries after eating", "response": "Crying after eating? It could be an allergy or gas. Check with a doctor."}
+      ]
+    },
+    {
+      "tag": "travel_with_baby",
+      "intents": [
+        {"pattern": "how to travel with baby", "response": "Travel light with a comfy carrier. Pack essentials like diapers and snacks!"},
+        {"pattern": "baby cries on plane", "response": "Crying on a plane? Offer a pacifier during takeoff. Keep them comfy!"},
+        {"pattern": "travel tips for newborn", "response": "For newborns, travel short distances and stick to their routine."},
+        {"pattern": "how to feed baby on plane", "response": "Feed during takeoff to ease ear pressure. Bring bottles or nurse!"},
+        {"pattern": "how to keep baby entertained on flight", "response": "Entertain with soft toys or peek-a-boo. Keep it simple on flights!"},
+        {"pattern": "best stroller for travel", "response": "Choose a lightweight, foldable stroller for travel. Check reviews!"}
+      ]
+    },
+    {
+      "tag": "baby_gear",
+      "intents": [
+        {"pattern": "best stroller for baby", "response": "Pick a lightweight stroller with good safety ratings. Check for easy folding!"},
+        {"pattern": "how to choose car seat", "response": "Choose a car seat with 5-point harness and rear-facing for infants."},
+        {"pattern": "best high chair for baby", "response": "Look for a wipeable high chair with a secure tray. Safety first!"},
+        {"pattern": "best baby monitor", "response": "A good baby monitor has video and clear sound. Check range and battery!"},
+        {"pattern": "how to clean feeding bottles", "response": "Clean bottles with warm soapy water and a bottle brush. Sterilize weekly!"},
+        {"pattern": "best diaper bag", "response": "Choose a diaper bag with multiple compartments and easy-clean material."}
+      ]
+    },
+    {
+      "tag": "working_mom",
+      "intents": [
+        {"pattern": "how to balance work and baby", "response": "Plan your day and bond with baby after work. Mom Pulse has balance tips!"},
+        {"pattern": "mom guilt at work", "response": "Mom guilt? Focus on quality time with your baby. You’re doing great!"},
+        {"pattern": "how to pump milk at work", "response": "Pump in a quiet space every 3 hours. Store milk in a cooler!"},
+        {"pattern": "how to manage stress working mom", "response": "Manage stress with deep breathing or short breaks. You’ve got this!"},
+        {"pattern": "daycare tips for baby", "response": "Choose a daycare with caring staff and a clean environment. Visit first!"},
+        {"pattern": "how to stay productive with baby", "response": "Stay productive by setting small goals and using nap times for tasks."}
+      ]
+    },
+    {
+      "tag": "baby_emotions",
+      "intents": [
+        {"pattern": "how to know if baby is upset", "response": "Upset babies may cry or frown. Hug them to make them feel safe!"},
+        {"pattern": "baby scared of strangers", "response": "Scared of strangers? Stay close and comfort them. They’ll adjust!"},
+        {"pattern": "how to make baby happy", "response": "Sing, play peek-a-boo, or cuddle to make your baby happy!"},
+        {"pattern": "baby cries for no reason", "response": "Crying for no reason? Check for hunger, tiredness, or overstimulation."},
+        {"pattern": "baby not smiling much", "response": "Not smiling? Engage with silly faces or toys. Smiles come around 6 weeks!"},
+        {"pattern": "how to calm scared baby", "response": "Calm a scared baby with soft singing or cuddling in a quiet space."}
+      ]
+    },
+    {
+      "tag": "sibling_relationships",
+      "intents": [
+        {"pattern": "older sibling jealous of baby", "response": "Jealous sibling? Give them extra attention and involve them in baby tasks."},
+        {"pattern": "how to bond baby and sibling", "response": "Bond siblings with shared play or reading time. Let the older one help!"},
+        {"pattern": "toddler hits baby", "response": "If a toddler hits, teach gentle touch and supervise closely. Stay calm!"},
+        {"pattern": "how to teach sibling to share", "response": "Teach sharing by modeling it and praising when they share toys!"},
+        {"pattern": "sibling rivalry tips", "response": "Reduce rivalry by giving each child one-on-one time. Stay fair!"},
+        {"pattern": "older sibling ignores baby", "response": "If they ignore the baby, encourage small interactions like smiling at them."}
+      ]
+    },
+    {
+      "tag": "baby_learning",
+      "intents": [
+        {"pattern": "how to teach baby colors", "response": "Teach colors with colorful toys or books. Point and name them daily!"},
+        {"pattern": "how to teach baby shapes", "response": "Use shape sorters to teach shapes. Name them during playtime!"},
+        {"pattern": "when will baby recognize name", "response": "Babies recognize their name around 6-9 months. Call them often!"},
+        {"pattern": "make learning fun for baby", "response": "Make learning fun with songs, rhymes, or sensory play!"},
+        {"pattern": "how to encourage baby to point", "response": "Encourage pointing by pointing at objects yourself and naming them!"},
+        {"pattern": "best educational toy for baby", "response": "Choose stacking cups or soft books for educational fun!"}
+      ]
+    },
+    {
+      "tag": "emergency_preparedness",
+      "intents": [
+        {"pattern": "how to handle baby choking", "response": "For choking, use back blows carefully. Call a doctor immediately!"},
+        {"pattern": "baby has high fever", "response": "High fever? Use paracetamol after consulting a doctor. Monitor closely!"},
+        {"pattern": "what to do if baby falls", "response": "If baby falls, check for injuries and call a doctor if they seem hurt."},
+        {"pattern": "baby stops breathing", "response": "If baby stops breathing, start CPR and call emergency services now!"},
+        {"pattern": "how to treat baby burn", "response": "For a burn, cool the area with water for 10 minutes and call a doctor."},
+        {"pattern": "baby swallows something", "response": "If baby swallows something, call a doctor immediately. Don’t induce vomiting!"}
+      ]
+    }
+  ]
+}
